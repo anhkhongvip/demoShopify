@@ -3,18 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "nodemon --quite",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@shopify/koa-shopify-auth": "^4.1.4",
+    "dotenv": "^10.0.0",
+    "isomorphic-fetch": "^3.0.0",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-cors": "0.0.16",
+    "koa-router": "^10.0.0",
+    "mobx": "^6.3.2",
+    "mobx-react": "^7.2.0",
+    "mobx-state-tree": "^5.0.2",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@types/node": "^16.4.10",
+    "@types/react": "^17.0.15",
     "eslint": "7.32.0",
-    "eslint-config-next": "11.0.1"
+    "eslint-config-next": "11.0.1",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
   }
 }
